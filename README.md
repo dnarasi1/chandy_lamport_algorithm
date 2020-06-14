@@ -30,8 +30,7 @@ branch, e.g., “branch1”. The second one specifies the port number the branch
 $> ./branch branch1 9090
 It is expected that your branch executable will start a new branch called “branch1” which listens on port 9090 for
 incoming TCP connections.
-# 2.1
-Controller
+# 2.1 Controller
 In this assignment, we rely on a controller to set a branch’s initial balance and notify every branch of all branches in
 the distributed bank. This controller takes two command line inputs: the total amount of money in the distributed
 bank and a local file that stores the names, IP addresses, and port numbers of all branches.
